@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    height: 100%;
+}
+
+*::after, *::before {
+    box-sizing: inherit;
+}
+
+*{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 1rem;
+}
+h1{
+    margin-top: -0.1rem;
+}
+header{
+    background-color: rgb(199, 206, 203);
+    position: sticky;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside{
+    margin: 0;
+    padding: 0;
+}
+aside ul li {
+    margin: 1rem 2rem;
+    border: 2px solid grey;
+}
+article{
+    background-color: rgb(214, 209, 209);
+}
+main section{
+    background-color: white;
+    margin: 1rem 2rem;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem 1rem 1rem -1rem;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(93, 82, 82);
+}
+
+
+main, header{
+    display: flex;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+}
+footer a {
+    color: white;
+}
+
